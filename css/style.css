@@ -33,11 +33,11 @@ body.light-theme {
     color: var(--cor-primaria);
 }
 
-body.light-theme .conteudo_links_link {
+body.light-theme .conteudo_links_navegacao {
     color: var(--cor-primaria);
 }
 
-body.light-theme .conteudo_links_link:hover {
+body.light-theme .conteudo_links_navegacao:hover {
     color: var(--cor-secundaria);
 }
 
@@ -60,7 +60,7 @@ body.light-theme .conteudo_links_link:hover {
 
 .alterar_tema i {
     color: var(--cor-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     transition: color 0.3s;
 }
 
@@ -122,7 +122,7 @@ body.light-theme .texto_destaque_react {
 .cabecalho_menu_link {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
@@ -135,14 +135,14 @@ body.light-theme .texto_destaque_react {
 }
 
 .conteudo_informacao {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .conteudo_titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -151,7 +151,7 @@ body.light-theme .texto_destaque_react {
 }
 
 .conteudo_texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -182,17 +182,17 @@ body.light-theme .texto_destaque_react {
 .conteudo_links_titulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.conteudo_links_link {
+.conteudo_links_navegacao {
     display: flex;
     justify-content: center;
     gap: 10px;
-    width: 370px;
+    width: 50%;
     text-align: center;
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 20px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -201,7 +201,7 @@ body.light-theme .texto_destaque_react {
     font-weight: 600;
 }
 
-.conteudo_links_link:hover {
+.conteudo_links_navegacao:hover {
     background-color: var(--cor-hover);
 }
 
@@ -210,8 +210,7 @@ body.light-theme .texto_destaque_react {
 }
 
 .conteudo_imagem {
-    width: 400px;
-    height: 400px;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(0, 23, 235, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 23, 235, 0.75);
@@ -224,5 +223,5 @@ body.light-theme .texto_destaque_react {
     padding: 20px;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
