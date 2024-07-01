@@ -132,6 +132,7 @@ body.light-theme .texto_destaque_react {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .conteudo_informacao {
@@ -224,4 +225,24 @@ body.light-theme .texto_destaque_react {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho_menu {
+        justify-content: center;
+    }
+
+    .conteudo {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .conteudo_informacao {
+        width: auto;
+    }
+
 }
